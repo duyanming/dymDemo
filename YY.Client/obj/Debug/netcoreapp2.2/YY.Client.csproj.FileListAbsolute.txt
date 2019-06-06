@@ -1,0 +1,11 @@
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\YY.Client\bin\Debug\netcoreapp2.2\YY.Client.deps.json
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\YY.Client\bin\Debug\netcoreapp2.2\YY.Client.runtimeconfig.json
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\YY.Client\bin\Debug\netcoreapp2.2\YY.Client.runtimeconfig.dev.json
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\YY.Client\bin\Debug\netcoreapp2.2\YY.Client.dll
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\YY.Client\obj\Debug\netcoreapp2.2\YY.Client.csprojAssemblyReference.cache
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\YY.Client\obj\Debug\netcoreapp2.2\YY.Client.csproj.CoreCompileInputs.cache
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\YY.Client\obj\Debug\netcoreapp2.2\YY.Client.AssemblyInfoInputs.cache
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\YY.Client\obj\Debug\netcoreapp2.2\YY.Client.AssemblyInfo.cs
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\YY.Client\bin\Debug\netcoreapp2.2\YY.Client.pdb
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\YY.Client\obj\Debug\netcoreapp2.2\YY.Client.dll
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\YY.Client\obj\Debug\netcoreapp2.2\YY.Client.pdb

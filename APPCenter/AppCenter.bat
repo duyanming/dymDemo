@@ -1,0 +1,1 @@
+dotnet AppCenter.dll

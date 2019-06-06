@@ -1,0 +1,17 @@
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\dym.Plugs.YYTestService\bin\Debug\netstandard2.0\dym.Plugs.YYTestService.deps.json
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\dym.Plugs.YYTestService\bin\Debug\netstandard2.0\dym.Plugs.YYTestService.dll
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\dym.Plugs.YYTestService\obj\Debug\netstandard2.0\dym.Plugs.YYTestService.csprojAssemblyReference.cache
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\dym.Plugs.YYTestService\obj\Debug\netstandard2.0\dym.Plugs.YYTestService.csproj.CoreCompileInputs.cache
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\dym.Plugs.YYTestService\obj\Debug\netstandard2.0\dym.Plugs.YYTestService.AssemblyInfoInputs.cache
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\dym.Plugs.YYTestService\obj\Debug\netstandard2.0\dym.Plugs.YYTestService.AssemblyInfo.cs
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\dym.Plugs.YYTestService\bin\Debug\netstandard2.0\dym.Plugs.YYTestService.pdb
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\dym.Plugs.YYTestService\obj\Debug\netstandard2.0\dym.Plugs.YYTestService.dll
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\dym.Plugs.YYTestService\obj\Debug\netstandard2.0\dym.Plugs.YYTestService.pdb
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\Packages\dym.Plugs.YYTestService\bin\Debug\netstandard2.0\dym.Plugs.YYTestService.deps.json
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\Packages\dym.Plugs.YYTestService\bin\Debug\netstandard2.0\dym.Plugs.YYTestService.dll
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\Packages\dym.Plugs.YYTestService\bin\Debug\netstandard2.0\dym.Plugs.YYTestService.pdb
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\Packages\dym.Plugs.YYTestService\obj\Debug\netstandard2.0\dym.Plugs.YYTestService.csproj.CoreCompileInputs.cache
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\Packages\dym.Plugs.YYTestService\obj\Debug\netstandard2.0\dym.Plugs.YYTestService.AssemblyInfoInputs.cache
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\Packages\dym.Plugs.YYTestService\obj\Debug\netstandard2.0\dym.Plugs.YYTestService.AssemblyInfo.cs
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\Packages\dym.Plugs.YYTestService\obj\Debug\netstandard2.0\dym.Plugs.YYTestService.dll
+D:\project\samsundot\project\laboratory\dym.Test\YY.Client\Packages\dym.Plugs.YYTestService\obj\Debug\netstandard2.0\dym.Plugs.YYTestService.pdb
