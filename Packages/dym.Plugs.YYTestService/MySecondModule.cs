@@ -12,7 +12,9 @@ namespace dym.Plugs.YYTestService
         }
         public ActionResult MyT()
         {
-            return new ActionResult(true, new { Msg = " I from dym.Plugs.YYTestService MySecondModule!" }, null, null);
+            var xx = RequestString("XX");
+            Console.WriteLine($"来自客户端的消息：{xx}");
+            return new ActionResult(true, new { Msg = " I from dym.Plugs.YYTestService MySecondModule!" }, null, xx);
         }
     }
 }

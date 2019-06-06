@@ -16,15 +16,18 @@ namespace YY.Client
             dym.Const.SettingService.AppName = "YY.Client";
             //关闭调用链追踪
             dym.Const.SettingService.TraceOnOff = false;
+            Restart:
+            Console.WriteLine("请输入一个消息然后回车发送到服务器：");
+            var inputMsg = Console.ReadLine();
             var input = new InputTest()
             {
-                channel = "dym.Plugs.SerialRule",
-                router = "RuleFactory",
-                method = "CreateSdaNum",
-                XX = "我的自定义参数"
+                channel = "dym.Plugs.YYTest",
+                router = "MyFirst",
+                method = "MyT",
+                XX = $"{inputMsg}参数1"
             };
             var rltStr = Connector.BrokerDns(input);
-            var outPut = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(rltStr);
+            //var outPut = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(rltStr);
             Console.WriteLine(rltStr);
 
             Console.WriteLine("-----------------------------------------------------------------------------");
@@ -32,13 +35,14 @@ namespace YY.Client
             var inputYYTest = new InputTest()
             {
                 channel = "dym.Plugs.YYTest",
-                router = "MyFirst",
+                router = "MySecond",
                 method = "MyT",
-                XX = "我的自定义参数"
+                XX = $"{inputMsg}参数2"
             };
             var rltStrYY = Connector.BrokerDns(inputYYTest);
-            var outPutYY = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(rltStr);
+            //var outPutYY = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(rltStr);
             Console.WriteLine(rltStrYY);
+            goto Restart;
             Console.ReadLine();
         }
     }
