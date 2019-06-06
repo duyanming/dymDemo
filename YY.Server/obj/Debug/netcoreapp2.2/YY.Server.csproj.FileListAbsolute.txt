@@ -10,3 +10,14 @@ D:\project\samsundot\project\laboratory\dym.Test\YY.Client\YY.Server\obj\Debug\n
 D:\project\samsundot\project\laboratory\dym.Test\YY.Client\YY.Server\obj\Debug\netcoreapp2.2\YY.Server.pdb
 D:\project\samsundot\project\laboratory\dym.Test\YY.Client\YY.Server\bin\Debug\netcoreapp2.2\Packages\Plugs插件使用说明.txt
 D:\project\samsundot\project\laboratory\dym.Test\YY.Client\YY.Server\obj\Debug\netcoreapp2.2\YY.Server.csprojAssemblyReference.cache
+D:\project\samsundot\project\laboratory\dym.Test\dymDemo\YY.Server\bin\Debug\netcoreapp2.2\Packages\Plugs插件使用说明.txt
+D:\project\samsundot\project\laboratory\dym.Test\dymDemo\YY.Server\bin\Debug\netcoreapp2.2\YY.Server.deps.json
+D:\project\samsundot\project\laboratory\dym.Test\dymDemo\YY.Server\bin\Debug\netcoreapp2.2\YY.Server.runtimeconfig.json
+D:\project\samsundot\project\laboratory\dym.Test\dymDemo\YY.Server\bin\Debug\netcoreapp2.2\YY.Server.runtimeconfig.dev.json
+D:\project\samsundot\project\laboratory\dym.Test\dymDemo\YY.Server\bin\Debug\netcoreapp2.2\YY.Server.dll
+D:\project\samsundot\project\laboratory\dym.Test\dymDemo\YY.Server\bin\Debug\netcoreapp2.2\YY.Server.pdb
+D:\project\samsundot\project\laboratory\dym.Test\dymDemo\YY.Server\obj\Debug\netcoreapp2.2\YY.Server.csproj.CoreCompileInputs.cache
+D:\project\samsundot\project\laboratory\dym.Test\dymDemo\YY.Server\obj\Debug\netcoreapp2.2\YY.Server.AssemblyInfoInputs.cache
+D:\project\samsundot\project\laboratory\dym.Test\dymDemo\YY.Server\obj\Debug\netcoreapp2.2\YY.Server.AssemblyInfo.cs
+D:\project\samsundot\project\laboratory\dym.Test\dymDemo\YY.Server\obj\Debug\netcoreapp2.2\YY.Server.dll
+D:\project\samsundot\project\laboratory\dym.Test\dymDemo\YY.Server\obj\Debug\netcoreapp2.2\YY.Server.pdb

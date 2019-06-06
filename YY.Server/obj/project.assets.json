@@ -6417,11 +6417,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\YY.Client\\YY.Server\\YY.Server.csproj",
+      "projectUniqueName": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\dymDemo\\YY.Server\\YY.Server.csproj",
       "projectName": "YY.Server",
-      "projectPath": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\YY.Client\\YY.Server\\YY.Server.csproj",
+      "projectPath": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\dymDemo\\YY.Server\\YY.Server.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\YY.Client\\YY.Server\\obj\\",
+      "outputPath": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\dymDemo\\YY.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

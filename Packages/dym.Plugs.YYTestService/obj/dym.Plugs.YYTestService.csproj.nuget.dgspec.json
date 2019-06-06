@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\YY.Client\\Packages\\dym.Plugs.YYTestService\\dym.Plugs.YYTestService.csproj": {}
+    "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\dymDemo\\Packages\\dym.Plugs.YYTestService\\dym.Plugs.YYTestService.csproj": {}
   },
   "projects": {
-    "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\YY.Client\\Packages\\dym.Plugs.YYTestService\\dym.Plugs.YYTestService.csproj": {
+    "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\dymDemo\\Packages\\dym.Plugs.YYTestService\\dym.Plugs.YYTestService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\YY.Client\\Packages\\dym.Plugs.YYTestService\\dym.Plugs.YYTestService.csproj",
+        "projectUniqueName": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\dymDemo\\Packages\\dym.Plugs.YYTestService\\dym.Plugs.YYTestService.csproj",
         "projectName": "dym.Plugs.YYTestService",
-        "projectPath": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\YY.Client\\Packages\\dym.Plugs.YYTestService\\dym.Plugs.YYTestService.csproj",
+        "projectPath": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\dymDemo\\Packages\\dym.Plugs.YYTestService\\dym.Plugs.YYTestService.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\YY.Client\\Packages\\dym.Plugs.YYTestService\\obj\\",
+        "outputPath": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\dymDemo\\Packages\\dym.Plugs.YYTestService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

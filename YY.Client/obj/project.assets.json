@@ -6180,11 +6180,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\YY.Client\\YY.Client\\YY.Client.csproj",
+      "projectUniqueName": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\dymDemo\\YY.Client\\YY.Client.csproj",
       "projectName": "YY.Client",
-      "projectPath": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\YY.Client\\YY.Client\\YY.Client.csproj",
+      "projectPath": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\dymDemo\\YY.Client\\YY.Client.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\YY.Client\\YY.Client\\obj\\",
+      "outputPath": "D:\\project\\samsundot\\project\\laboratory\\dym.Test\\dymDemo\\YY.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
