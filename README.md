@@ -7,9 +7,9 @@
 
 ## 1、运行Demo
     第一步：启动注册中心
-        进入项目文件夹 dymDemo\APPCenter ，运行命令 dotnet AppCenter.dll
+        进入项目文件夹 dymDemo\YY.AppCenter\bin\Debug\netcoreapp2.2 ，运行命令 dotnet AppCenter.dll
         看到下图 说明运行成功
-![第一步](.//doc/1.png)
+![第一步](./doc/1.png)
 
     第二步：启动Server  
         Server可以和 AppCenter 不在同一台电脑，也可以运行多个server 也可以负载均衡，高级用法随后介绍

@@ -43,7 +43,6 @@ namespace YY.Client
             //var outPutYY = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(rltStr);
             Console.WriteLine(rltStrYY);
             goto Restart;
-            Console.ReadLine();
         }
     }
 
