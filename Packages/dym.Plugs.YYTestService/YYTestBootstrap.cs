@@ -14,5 +14,10 @@ namespace dym.Plugs.YYTestService
              */
 
         }
+
+        public void PreConfigurationBootstrap()
+        {
+            //Ioc 注入之前
+        }
     }
 }
