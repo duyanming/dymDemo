@@ -8,14 +8,13 @@ namespace YY.Client
     {
         static void Main(string[] args)
         {
-            //负载中心地址
-            dym.Const.SettingService.Local.IpAddress = "10.112.93.122";
-            //负载中心端口
-            dym.Const.SettingService.Local.Port = 6660;
-            //客户端名称
-            dym.Const.SettingService.AppName = "YY.Client";
-            //关闭调用链追踪
-            dym.Const.SettingService.TraceOnOff = false;
+            /*
+             * 1、AppName
+             * 2、注册中心
+             * 3、注册中心端口
+             * 4、关闭调用链追踪
+             */
+            DefaultConfigManager.SetDefaultConfiguration("YY.Client", "10.112.93.122", 6660,false);
             Restart:
             Console.WriteLine("请输入一个消息然后回车发送到服务器：");
             var inputMsg = Console.ReadLine();
@@ -26,6 +25,7 @@ namespace YY.Client
                 method = "MyT",
                 XX = $"{inputMsg}参数1"
             };
+
             var rltStr = Connector.BrokerDns(input);
             //var outPut = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(rltStr);
             Console.WriteLine(rltStr);
