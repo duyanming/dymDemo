@@ -23,7 +23,7 @@ namespace YY.Client
                 channel = "dym.Plugs.YYTest",
                 router = "MyFirst",
                 method = "MyT",
-                XX = $"{inputMsg}参数1"
+                XX = $"{inputMsg}MyFirst"
             };
 
             var rltStr = Connector.BrokerDns(input);
@@ -34,10 +34,10 @@ namespace YY.Client
 
             var inputYYTest = new InputTest()
             {
-                channel = "dym.Plugs.YYTest",
-                router = "MySecond",
-                method = "MyT",
-                XX = $"{inputMsg}参数2"
+                channel = "dym.Plugs.Samsundot",
+                router = "Samsundot",
+                method = "Samsundot",
+                XX = $"{inputMsg}Samsundot"
             };
             var rltStrYY = Connector.BrokerDns(inputYYTest);
             //var outPutYY = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(rltStr);

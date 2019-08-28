@@ -1,1 +1,1 @@
-dotnet AppCenter.dll
+dotnet YY.AppCenter.dll
