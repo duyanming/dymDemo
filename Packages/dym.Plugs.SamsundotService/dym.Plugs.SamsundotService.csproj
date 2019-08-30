@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="set plugsName=Samsundot&#xD;&#xA;set source=$(SolutionDir)Packages\dym.Plugs.%25plugsName%25Service\bin\Debug\netstandard2.0&#xD;&#xA;set targat=$(SolutionDir)YY.Server\bin\Debug\netcoreapp2.2\Packages\dym.Plugs.%25plugsName%25&#xD;&#xA;&#xD;&#xA;if exist %25targat%25 (     &#xD;&#xA;    rem 覆盖      &#xD;&#xA;) else (  &#xD;&#xA;        rem 创建        &#xD;&#xA;        md %25targat%25  &#xD;&#xA;    ) &#xD;&#xA;xcopy /Y %25source%25  %25targat%25" />
+    <Exec Command="set plugsName=Samsundot&#xD;&#xA;set source=&quot;$(SolutionDir)&quot;Packages\dym.Plugs.%25plugsName%25Service\bin\Debug\netstandard2.0&#xD;&#xA;set targat=&quot;$(SolutionDir)&quot;YY.Server\bin\Debug\netcoreapp2.2\Packages\dym.Plugs.%25plugsName%25&#xD;&#xA;&#xD;&#xA;if exist %25targat%25 (     &#xD;&#xA;    rem 覆盖      &#xD;&#xA;) else (  &#xD;&#xA;        rem 创建        &#xD;&#xA;        md %25targat%25  &#xD;&#xA;    ) &#xD;&#xA;xcopy /Y %25source%25  %25targat%25" />
   </Target>
 
 </Project>
