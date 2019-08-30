@@ -11,6 +11,7 @@ namespace dym.Plugs.SamsundotService
         {
 
         }
+        [Filter.AuthFilter]
         public ActionResult Samsundot()
         {
             var xx = RequestString("XX");
