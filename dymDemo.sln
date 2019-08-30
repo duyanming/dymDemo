@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dym.Plugs.YYTestService", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YY.AppCenter", "YY.AppCenter\YY.AppCenter.csproj", "{B0F79D3C-8EDA-4310-8F74-EFEF7E19A0B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dym.Plugs.SamsundotService", "Packages\dym.Plugs.SamsundotService\dym.Plugs.SamsundotService.csproj", "{F011771D-E35A-42AD-BC05-FEA2C2FB703A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dym.Plugs.SamsundotService", "Packages\dym.Plugs.SamsundotService\dym.Plugs.SamsundotService.csproj", "{F011771D-E35A-42AD-BC05-FEA2C2FB703A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

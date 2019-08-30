@@ -14,7 +14,7 @@ namespace YY.Client
              * 3、注册中心端口
              * 4、关闭调用链追踪
              */
-            DefaultConfigManager.SetDefaultConfiguration("YY.Client", "10.112.93.122", 6660,false);
+            DefaultConfigManager.SetDefaultConfiguration("YY.Client", "127.0.0.1", 6660,false);
             Restart:
             Console.WriteLine("请输入一个消息然后回车发送到服务器：");
             var inputMsg = Console.ReadLine();
