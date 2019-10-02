@@ -9,4 +9,10 @@
     <PackageReference Include="dym.Rpc.Center" Version="1.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="AppCenter.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
