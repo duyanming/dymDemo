@@ -6,7 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="dym.Rpc.Server" Version="1.1.2" />  </ItemGroup>
+    <PackageReference Include="dym.EventBus" Version="1.1.5" />
+    <PackageReference Include="dym.Rpc.Server" Version="1.1.5" />  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Packages\dym.Plugs.SamsundotService\dym.Plugs.SamsundotService.csproj" />
+    <ProjectReference Include="..\Packages\dym.Plugs.YYTestService\dym.Plugs.YYTestService.csproj" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Update="AppService6664.bat">
@@ -19,6 +25,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="AppService6661.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="dym.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Packages\Plugs插件使用说明.txt">

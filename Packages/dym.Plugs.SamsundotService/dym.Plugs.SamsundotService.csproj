@@ -5,7 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="dym.EngineData" Version="1.1.2" />
+    <PackageReference Include="dym.EngineData" Version="1.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Events\Events.csproj" />
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
