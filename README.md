@@ -21,7 +21,9 @@
         启动Client 测试 Client调用 Server是否成功
         进入项目文件夹 AnnoDemo\YY.Client\bin\Debug\netcoreapp3.0 ，运行命令 dotnet YY.Client.dll
         看到下图 说明 Client 成功运行 
-![第三步](./doc/3.png)
+![第三步](./doc/webapi.png)
+
+![第四步](./doc/3.png)
 
 # Anno EventBus
 	Eventbus Support  InMemory and Rabbitmq
