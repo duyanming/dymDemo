@@ -5,19 +5,19 @@ using Autofac;
 
 namespace YY.Server
 {
-    using dym.EventBus;
-    using dym.EventBus.RabbitMQ;
-    using dym.EngineData;
-    using dym.Loader;
-    using dym.Rpc.Server;
-    using dym.Log;
+    using Anno.EventBus;
+    using Anno.EventBus.RabbitMQ;
+    using Anno.EngineData;
+    using Anno.Loader;
+    using Anno.Rpc.Server;
+    using Anno.Log;
     static class Program
     {
         static void Main(string[] args)
         {
             Bootstrap.StartUp(args, () =>
             {
-                var funcs = dym.Const.Assemblys.Dic.Values.ToList();
+                var funcs = Anno.Const.Assemblys.Dic.Values.ToList();
                 //#region RabbitMQEventBus
                 ////消费失败通知
 
@@ -43,7 +43,7 @@ namespace YY.Server
                 };
                 EventBus.Instance.SubscribeAll(funcs);
                 #endregion
-                //dym.Const.SettingService.TraceOnOff = true;
+                //Anno.Const.SettingService.TraceOnOff = true;
                 var autofac = IocLoader.GetAutoFacContainerBuilder();
                 autofac.RegisterType(typeof(RpcConnectorImpl)).As(typeof(IRpcConnector)).SingleInstance();
             });

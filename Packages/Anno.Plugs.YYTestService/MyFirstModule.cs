@@ -1,11 +1,11 @@
-﻿using dym.EngineData;
+﻿using Anno.EngineData;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace dym.Plugs.YYTestService
+namespace Anno.Plugs.YYTestService
 {
-    using dym.EventBus;
+    using Anno.EventBus;
     public class MyFirstModule: BaseModule
     {
         public MyFirstModule() {
@@ -18,7 +18,7 @@ namespace dym.Plugs.YYTestService
             {
                 Message = xx
             }); 
-            return new ActionResult(true,new { Msg= " I from dym.Plugs.YYTestService MyFirstModule!" },null, xx);
+            return new ActionResult(true,new { Msg= " I from Anno.Plugs.YYTestService MyFirstModule!" },null, xx);
         }
     }
 }

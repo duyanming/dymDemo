@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace YY.AppCenter
 {
-    using dym.Rpc.Center;
+    using Anno.Rpc.Center;
     static class Program
     {
         static void Main(string[] args)

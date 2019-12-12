@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace dym.Plugs.YYTestService.EventHandler
+namespace Anno.Plugs.YYTestService.EventHandler
 {
-    using dym.EventBus;
+    using Anno.EventBus;
     using Events;
 
     class FirstMessageEventHandler : IEventHandler<FirstMessageEvent>

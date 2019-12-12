@@ -2,16 +2,17 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFrameworks>net461;netcoreapp3.1</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="dym.EventBus" Version="1.1.5" />
-    <PackageReference Include="dym.Rpc.Server" Version="1.1.5" />  </ItemGroup>
+    <PackageReference Include="Anno.EventBus" Version="1.0.1.3" />
+    <PackageReference Include="Anno.Rpc.Server" Version="1.0.1.3" />
+  </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Packages\dym.Plugs.SamsundotService\dym.Plugs.SamsundotService.csproj" />
-    <ProjectReference Include="..\Packages\dym.Plugs.YYTestService\dym.Plugs.YYTestService.csproj" />
+    <ProjectReference Include="..\Packages\Anno.Plugs.SamsundotService\Anno.Plugs.SamsundotService.csproj" />
+    <ProjectReference Include="..\Packages\Anno.Plugs.YYTestService\Anno.Plugs.YYTestService.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,7 +28,7 @@
     <None Update="AppService6661.bat">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="dym.config">
+    <None Update="Anno.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Packages\Plugs插件使用说明.txt">

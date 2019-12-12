@@ -1,6 +1,6 @@
 ﻿using System;
 
-using dym.Rpc.Client;
+using Anno.Rpc.Client;
 
 namespace YY.Client
 {
@@ -20,7 +20,7 @@ namespace YY.Client
             var inputMsg = Console.ReadLine();
             var input = new InputTest()
             {
-                channel = "dym.Plugs.YYTest",
+                channel = "Anno.Plugs.YYTest",
                 router = "MyFirst",
                 method = "MyT",
                 XX = $"{inputMsg}MyFirst"
@@ -34,7 +34,7 @@ namespace YY.Client
 
             var inputYYTest = new InputTest()
             {
-                channel = "dym.Plugs.Samsundot",
+                channel = "Anno.Plugs.Samsundot",
                 router = "Samsundot",
                 method = "Samsundot",
                 XX = $"{inputMsg}Samsundot"

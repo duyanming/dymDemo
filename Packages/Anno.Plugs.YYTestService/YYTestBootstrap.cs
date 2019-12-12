@@ -1,7 +1,7 @@
 ﻿using System;
-using dym.EngineData;
+using Anno.EngineData;
 
-namespace dym.Plugs.YYTestService
+namespace Anno.Plugs.YYTestService
 {
     //服务启动 配置
     public class YYTestBootstrap : IPlugsConfigurationBootstrap

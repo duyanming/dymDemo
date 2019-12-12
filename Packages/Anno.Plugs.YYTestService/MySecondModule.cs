@@ -1,9 +1,9 @@
-﻿using dym.EngineData;
+﻿using Anno.EngineData;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace dym.Plugs.YYTestService
+namespace Anno.Plugs.YYTestService
 {
     public class MySecondModule : BaseModule
     {
@@ -14,7 +14,7 @@ namespace dym.Plugs.YYTestService
         {
             var xx = RequestString("XX");
             Console.WriteLine($"来自客户端的消息：{xx}");
-            return new ActionResult(true, new { Msg = " I from dym.Plugs.YYTestService MySecondModule!" }, null, xx);
+            return new ActionResult(true, new { Msg = " I from Anno.Plugs.YYTestService MySecondModule!" }, null, xx);
         }
     }
 }

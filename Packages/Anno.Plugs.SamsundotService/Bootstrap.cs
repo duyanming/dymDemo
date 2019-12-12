@@ -1,7 +1,7 @@
 ﻿using System;
-using dym.EngineData;
+using Anno.EngineData;
 
-namespace dym.Plugs.SamsundotService
+namespace Anno.Plugs.SamsundotService
 {
     public class Bootstrap : IPlugsConfigurationBootstrap
     {

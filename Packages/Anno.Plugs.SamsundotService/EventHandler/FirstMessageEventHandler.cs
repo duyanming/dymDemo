@@ -2,16 +2,17 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace dym.Plugs.SamsundotService.EventHandler
+namespace Anno.Plugs.SamsundotService.EventHandler
 {
-    using dym.EventBus;
+    using Anno.Log;
+    using Anno.EventBus;
     using Events;
 
     class FirstMessageEventHandler : IEventHandler<FirstMessageEvent>
     {
         public void Handler(FirstMessageEvent entity)
         {
-            Log.Log.Info(new { Plugs= "Samsundot",Entity=entity },typeof(FirstMessageEventHandler));
+            Log.Info(new { Plugs= "Samsundot",Entity=entity },typeof(FirstMessageEventHandler));
         }
     }
 }
