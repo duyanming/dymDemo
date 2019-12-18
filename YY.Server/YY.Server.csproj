@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Packages\Anno.Plugs.CacheRateLimitService\Anno.Plugs.CacheRateLimitService.csproj" />
     <ProjectReference Include="..\Packages\Anno.Plugs.SamsundotService\Anno.Plugs.SamsundotService.csproj" />
     <ProjectReference Include="..\Packages\Anno.Plugs.YYTestService\Anno.Plugs.YYTestService.csproj" />
   </ItemGroup>

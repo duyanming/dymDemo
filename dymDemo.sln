@@ -23,7 +23,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{C5AE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events", "Packages\Events\Events.csproj", "{1967505E-E3C5-4DCD-9CA2-1B8A5CDFFD13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YYWeb", "YYWeb\YYWeb.csproj", "{9398EE67-651A-4251-9F16-0BE64D93888B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YYWeb", "YYWeb\YYWeb.csproj", "{9398EE67-651A-4251-9F16-0BE64D93888B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anno.Plugs.CacheRateLimitService", "Packages\Anno.Plugs.CacheRateLimitService\Anno.Plugs.CacheRateLimitService.csproj", "{C9667E10-30D6-41F8-BE75-5CD33824DEE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{9398EE67-651A-4251-9F16-0BE64D93888B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9398EE67-651A-4251-9F16-0BE64D93888B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9398EE67-651A-4251-9F16-0BE64D93888B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9667E10-30D6-41F8-BE75-5CD33824DEE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9667E10-30D6-41F8-BE75-5CD33824DEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9667E10-30D6-41F8-BE75-5CD33824DEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9667E10-30D6-41F8-BE75-5CD33824DEE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{09BE3C5D-4060-431D-9308-13E366B89F84} = {DD06EB0D-3AC0-4BD3-8819-5019FBF4A4CD}
 		{F011771D-E35A-42AD-BC05-FEA2C2FB703A} = {DD06EB0D-3AC0-4BD3-8819-5019FBF4A4CD}
 		{1967505E-E3C5-4DCD-9CA2-1B8A5CDFFD13} = {DD06EB0D-3AC0-4BD3-8819-5019FBF4A4CD}
+		{C9667E10-30D6-41F8-BE75-5CD33824DEE7} = {DD06EB0D-3AC0-4BD3-8819-5019FBF4A4CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF4907C5-1326-46EE-8735-E452CAD2070F}

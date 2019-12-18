@@ -28,7 +28,7 @@
 ![第四步](./doc/webapi.png)
 
 # Anno EventBus
-	Eventbus Support  InMemory and Rabbitmq
+    Eventbus Support  InMemory and Rabbitmq
 ## 1、Server配置
 
 ```c#
@@ -126,3 +126,82 @@
 	}
 
  ```  
+
+## 4、中间件
+### 4.1 缓存中间件
+#### nuget install
+
+```shell
+
+Install-Package Anno.EngineData.Cache
+
+```
+
+ ```c#
+	
+using System;
+using System.Collections.Generic;
+using System.Text;
+using Anno.EngineData;
+using Anno.EngineData.Cache;
+
+
+namespace Anno.Plugs.CacheRateLimitService
+{
+    public class CacheModule : BaseModule
+    {
+        /*
+        参数1：缓存长度
+        参数2：缓存存活时间
+        参数3：缓存存活时间是否滑动
+        */
+        [CacheLRU(5,6,true)]
+        public ActionResult Cache(string msg)
+        {
+            Console.WriteLine(msg);
+            return new ActionResult(true, null,null,msg);
+        }
+    }
+}
+
+ ``` 
+
+ ### 4.2 缓存中间件
+#### nuget install
+
+```shell
+
+Install-Package Anno.EngineData.RateLimit
+
+```
+
+ ```c#
+	
+using System;
+using System.Collections.Generic;
+using System.Text;
+using Anno.EngineData;
+using Anno.RateLimit;
+
+namespace Anno.Plugs.CacheRateLimitService
+{
+    public class LimitModule : BaseModule
+    {
+        /*
+        参数1：限流算法是令牌桶还是漏桶
+        参数2：限流时间片段单位秒
+        参数3：单位时间可以通过的请求个数
+        参数4：桶容量
+        */
+        [EngineData.Limit.RateLimit(LimitingType.TokenBucket,1,5,5)]
+        public ActionResult Limit(string msg)
+        {
+            Console.WriteLine(msg);
+            return new ActionResult(true, null, null, msg);
+        }
+    }
+}
+
+ ``` 
+
+
