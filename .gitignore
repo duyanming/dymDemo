@@ -9,3 +9,12 @@
 /**/bin/Debug/netcoreapp3.1
 /**/Anno.Plugs.YYTestService/bin
 /**/**/bin
+/YY.AppCenter/Properties/PublishProfiles/FolderProfile.pubxml
+/YY.AppCenter/Properties/PublishProfiles/FolderProfile.pubxml.user
+/YY.AppCenter/YY.AppCenter.csproj.user
+/YY.Server/Properties/PublishProfiles/FolderProfile.pubxml
+/YY.Server/Properties/PublishProfiles/FolderProfile.pubxml.user
+/YYWeb/.config/dotnet-tools.json
+/YYWeb/Properties/PublishProfiles/FolderProfile.pubxml
+/YYWeb/Properties/PublishProfiles/FolderProfile.pubxml.user
+/YYWeb/YYWeb.csproj.user
