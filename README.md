@@ -1,5 +1,6 @@
 # AnnoDemo
     Anno 分布式开发框架 Demo
+    Java 实现 https://github.com/duyanming/anno.thrift-parent
 
 # Anno 分布式开发框架
 
