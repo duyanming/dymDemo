@@ -1,6 +1,11 @@
 # AnnoDemo
+
     Anno 分布式开发框架 Demo
-    Java 实现 https://github.com/duyanming/anno.thrift-parent
+##  [Java 实现 ](https://github.com/duyanming/anno.thrift-parent) : https://github.com/duyanming/anno.thrift-parent
+    
+##  [Demo 在线演示地址](http://140.143.207.244) :http://140.143.207.244
+    账号：anno
+    密码：123456
 
 # Anno 分布式开发框架
 
